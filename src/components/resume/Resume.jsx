@@ -81,7 +81,7 @@ export class Resume extends Component {
                 </small>
               </a>
               <a
-                href="https://docs.google.com/document/d/1B0lHdwbyLFcbMGGzcCqOd4Xh0N3Fa99QFD9iKjWw_aE/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1IgLroDHYSGpHHjHed__VKzZQGRul3Q6fffID2o1cir8/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
