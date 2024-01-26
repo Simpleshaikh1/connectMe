@@ -3,60 +3,62 @@ import { Link } from "react-router-dom";
 import "./Work.css";
 import Project from "../utils/project/Project";
 import uuid from "react-uuid";
-// import Locum from "../../assets/img/locum-dashboard.png";
+import Locum from "../../assets/img/locum-dashboard.png";
 import Buddy from "../../assets/img/buddy.jpg";
-// import Myxalary from "../../assets/img/myxalary-payroll.png";
+import Myxalary from "../../assets/img/myxalary-payroll.png";
 import Hackathon from "../../assets/img/get-linked-hackathon.png";
 import Cloud from "../../assets/img/cloud.jpg";
-// import Credence from "../../assets/img/credence.png";
+import Flight from "../../assets/img/flight-app.png";
+import Mobi from "../../assets/img/mobi-bank.png";
+import Credence from "../../assets/img/credence.png";
 import Share from "../../assets/img/sharecoin.png";
 
 export class Work extends Component {
   state = {
     projects: [
 
-      // {
-      //   id: uuid(),
-      //   title: "Locum Space",
-      //   description: "Booking appointment with doctors in real time.",
-      //   github: "https://github.com/LocumSpace/LocumSpaceWeb",
-      //   live: "https://locum-ba5f5.firebaseapp.com/",
-      //   stack: "React + Styled Components + NestJs",
-      //   isPrivate: false,
-      //   backgroundImage: Locum,
-      // },
-
-      // {
-      //   id: uuid(),
-      //   title: "MyXalary",
-      //   description: "An all-in-one HRM software.",
-      //   github: "https://myxalary.com/",
-      //   live: "https://www.linkedin.com/company/myxalary/",
-      //   stack: "Angular + Socket.io + Express",
-      //   isPrivate: false,
-      //   backgroundImage: Myxalary,
-      // },
-
-      // {
-      //   id: uuid(),
-      //   title: "Credence",
-      //   description: "Fueling Agribusiness",
-      //   bitbucket: "https://bitbucket.org/credence-app1/credence-frontend/",
-      //   live: "https://credenceapp.co/",
-      //   stack: "React + Redux + NodeJs",
-      //   isPrivate: false,
-      //   backgroundImage: Credence,
-      // },
+      {
+        id: uuid(),
+        title: "Locum Space",
+        description: "Booking appointment with doctors in real time.",
+        github: "https://github.com/LocumSpace/LocumSpaceWeb",
+        live: "https://locum-ba5f5.firebaseapp.com/",
+        stack: "React + Styled Components + NestJs",
+        isPrivate: false,
+        backgroundImage: Locum,
+      },
 
       {
         id: uuid(),
-        title: "TellTheClouds",
+        title: "MyXalary",
+        description: "An all-in-one HRM software.",
+        live: "https://myxalary.com/",
+        github: "https://www.linkedin.com/company/myxalary/",
+        stack: "Angular + Socket.io + Express",
+        isPrivate: false,
+        backgroundImage: Myxalary,
+      },
+
+      {
+        id: uuid(),
+        title: "Credence",
+        description: "Fueling Agribusiness",
+        github: "https://bitbucket.org/credence-app1/credence-frontend/",
+        live: "https://credenceapp.co/",
+        stack: "React + Redux + NodeJs",
+        isPrivate: false,
+        backgroundImage: Credence,
+      },
+
+      {
+        id: uuid(),
+        title: "Flight App",
         description: "Flight Booking App",
-        github: "https://github.com/Wineshuga/tell_the_clouds",
-        live: "https://telltheclouds.onrender.com/",
+        github: "https://github.com/simpleshiakh1",
+        live: "https://flight-advisor-app-6phr.vercel.app/explore",
         stack: "React + SASS",
         isPrivate: false,
-        backgroundImage: Cloud,
+        backgroundImage: Flight,
       },
 
       {
@@ -68,6 +70,28 @@ export class Work extends Component {
         stack: "React",
         isPrivate: false,
         backgroundImage: Hackathon,
+      },
+
+      {
+        id: uuid(),
+        title: "Mobi Bank",
+        description: "Easy to use banking app",
+        github: "https://github.com/simpleshiakh1",
+        live: "https://mobibankapp.onrender.com/",
+        stack: "React + Redux + NodeJs",
+        isPrivate: false,
+        backgroundImage:Mobi,
+      }, 
+
+      {
+        id: uuid(),
+        title: "TellTheClouds",
+        description: "Flight Booking App",
+        github: "https://github.com/Wineshuga/tell_the_clouds",
+        live: "https://telltheclouds.onrender.com/",
+        stack: "React + SASS",
+        isPrivate: false,
+        backgroundImage: Cloud,
       },
 
       {
