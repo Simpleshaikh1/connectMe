@@ -21,7 +21,7 @@ export class Work extends Component {
         description: "Booking appointment with doctors in real time.",
         github: "https://github.com/LocumSpace/LocumSpaceWeb",
         live: "https://locum-ba5f5.firebaseapp.com/",
-        stack: "React + Styled Components + NextJs",
+        stack: "React + Styled Components + NestJs",
         isPrivate: false,
         backgroundImage: Locum,
       },
