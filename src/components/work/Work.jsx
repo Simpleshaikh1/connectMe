@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import "./Work.css";
 import Project from "../utils/project/Project";
 import uuid from "react-uuid";
-import Locum from "../../assets/img/locum-dashboard.png";
+// import Locum from "../../assets/img/locum-dashboard.png";
 import Buddy from "../../assets/img/buddy.jpg";
-import Myxalary from "../../assets/img/myxalary-payroll.png";
+// import Myxalary from "../../assets/img/myxalary-payroll.png";
 import Hackathon from "../../assets/img/get-linked-hackathon.png";
 import Cloud from "../../assets/img/cloud.jpg";
-import Credence from "../../assets/img/credence.png";
+// import Credence from "../../assets/img/credence.png";
 import Share from "../../assets/img/sharecoin.png";
 
 export class Work extends Component {
