@@ -12,7 +12,7 @@ export class Base extends Component {
       <div className='base_container'>
         <div className='hero'>
           <div className='intro_box'>
-            <h1>
+            <h1 className="animate-text">
               Hello, I'm <br /> Toyyib Abayomi.
             </h1>
             <div className='avi'>

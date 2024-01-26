@@ -17,7 +17,7 @@ export class Header extends Component {
       <div id='header'>
         <div className="header_wrapper">
           <div className="logo_container">
-            <a href="https://github.com/Simpleshaikh1" className='Toyyib'>Toyyib.</a>
+            <a href="https://github.com/Simpleshaikh1" target="_blank" className='Toyyib'>Toyyib.</a>
           </div>
 
           <div className="menu_btn_wrapper">

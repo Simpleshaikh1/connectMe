@@ -13,6 +13,37 @@
     align-items: center;
     margin-bottom: 10px;
   }
+
+  .animate-text {
+    animation: flashText 5s ease-in-out infinite;
+  }
+  
+  @keyframes flashText {
+    0% {
+      color: #0808de;
+    }
+  
+    20% {
+      color: #691c1c;
+    }
+  
+    30% {
+      color: #261717;
+    }
+  
+    40% {
+      color: #b4b4b4;
+    }
+  
+    45% {
+      color: #b3b3f9;
+    }
+  
+    100% {
+      color: #fff;
+    }
+  }
+  
   
   .intro_box h1 {
     font-style: normal;

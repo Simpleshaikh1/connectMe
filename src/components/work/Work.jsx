@@ -4,10 +4,10 @@ import "./Work.css";
 import Project from "../utils/project/Project";
 import uuid from "react-uuid";
 import Locum from "../../assets/img/locum-dashboard.png";
-import Mobi from "../../assets/img/mobi-bank.png";
+import Buddy from "../../assets/img/buddy.jpg";
 import Myxalary from "../../assets/img/myxalary-payroll.png";
 import Hackathon from "../../assets/img/get-linked-hackathon.png";
-import Flight from "../../assets/img/flight-app.png";
+import Cloud from "../../assets/img/cloud.jpg";
 import Credence from "../../assets/img/credence.png";
 import Share from "../../assets/img/sharecoin.png";
 
@@ -15,48 +15,48 @@ export class Work extends Component {
   state = {
     projects: [
 
-      {
-        id: uuid(),
-        title: "Locum Space",
-        description: "Booking appointment with doctors in real time.",
-        github: "https://github.com/LocumSpace/LocumSpaceWeb",
-        live: "https://locum-ba5f5.firebaseapp.com/",
-        stack: "React + Styled Components + NestJs",
-        isPrivate: false,
-        backgroundImage: Locum,
-      },
+      // {
+      //   id: uuid(),
+      //   title: "Locum Space",
+      //   description: "Booking appointment with doctors in real time.",
+      //   github: "https://github.com/LocumSpace/LocumSpaceWeb",
+      //   live: "https://locum-ba5f5.firebaseapp.com/",
+      //   stack: "React + Styled Components + NestJs",
+      //   isPrivate: false,
+      //   backgroundImage: Locum,
+      // },
+
+      // {
+      //   id: uuid(),
+      //   title: "MyXalary",
+      //   description: "An all-in-one HRM software.",
+      //   github: "https://myxalary.com/",
+      //   live: "https://www.linkedin.com/company/myxalary/",
+      //   stack: "Angular + Socket.io + Express",
+      //   isPrivate: false,
+      //   backgroundImage: Myxalary,
+      // },
+
+      // {
+      //   id: uuid(),
+      //   title: "Credence",
+      //   description: "Fueling Agribusiness",
+      //   bitbucket: "https://bitbucket.org/credence-app1/credence-frontend/",
+      //   live: "https://credenceapp.co/",
+      //   stack: "React + Redux + NodeJs",
+      //   isPrivate: false,
+      //   backgroundImage: Credence,
+      // },
 
       {
         id: uuid(),
-        title: "MyXalary",
-        description: "An all-in-one HRM software.",
-        github: "https://myxalary.com/",
-        live: "https://www.linkedin.com/company/myxalary/",
-        stack: "Angular + Socket.io + Express",
-        isPrivate: false,
-        backgroundImage: Myxalary,
-      },
-
-      {
-        id: uuid(),
-        title: "Credence",
-        description: "Fueling Agribusiness",
-        bitbucket: "https://bitbucket.org/credence-app1/credence-frontend/",
-        live: "https://credenceapp.co/",
-        stack: "React + Redux + NodeJs",
-        isPrivate: false,
-        backgroundImage: Credence,
-      },
-
-      {
-        id: uuid(),
-        title: "Flight App",
+        title: "TellTheClouds",
         description: "Flight Booking App",
-        github: "https://github.com/simpleshiakh1",
-        live: "https://flight-advisor-app-6phr.vercel.app/explore",
+        github: "https://github.com/Wineshuga/tell_the_clouds",
+        live: "https://telltheclouds.onrender.com/",
         stack: "React + SASS",
         isPrivate: false,
-        backgroundImage: Flight,
+        backgroundImage: Cloud,
       },
 
       {
@@ -72,13 +72,13 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Mobi Bank",
-        description: "Easy to use banking app",
-        github: "https://github.com/simpleshiakh1",
-        live: "https://mobibankapp.onrender.com/",
+        title: "Budget Buddy",
+        description: "BuddyBudget is a mobile design web application where you can manage your budget",
+        github: "https://github.com/Simpleshaikh1/BudgetBuddy",
+        live: "https://smartbudget-mhwp.onrender.com/",
         stack: "React + Redux + NodeJs",
         isPrivate: false,
-        backgroundImage:Mobi,
+        backgroundImage: Buddy,
       }, 
 
       {
