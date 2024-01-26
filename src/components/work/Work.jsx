@@ -9,6 +9,7 @@ import Myxalary from "../../assets/img/myxalary-payroll.png";
 import Hackathon from "../../assets/img/get-linked-hackathon.png";
 import Flight from "../../assets/img/flight-app.png";
 import Credence from "../../assets/img/credence.png";
+import Share from "../../assets/img/sharecoin.png";
 
 export class Work extends Component {
   state = {
@@ -75,9 +76,20 @@ export class Work extends Component {
         description: "Easy to use banking app",
         github: "https://github.com/simpleshiakh1",
         live: "https://mobibankapp.onrender.com/",
-        stack: "Sass + Javsacript + PHP",
+        stack: "React + Redux + NodeJs",
         isPrivate: false,
         backgroundImage:Mobi,
+      }, 
+
+      {
+        id: uuid(),
+        title: "Share Coin",
+        description: "Numeric Value of Stock Data",
+        github: "https://github.com/Simpleshaikh1/Metric-App",
+        live: "https://metric-app-v1.netlify.app/",
+        stack: "React + Redux",
+        isPrivate: false,
+        backgroundImage: Share,
       }, 
     ],
   };

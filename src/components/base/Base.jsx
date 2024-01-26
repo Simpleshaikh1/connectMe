@@ -22,9 +22,12 @@ export class Base extends Component {
 
           <div className='description'>
             <p>
-              <span>
+              {/* <span>
                 I'm a self-motivated <span className='highlight'>software developer</span>. I create interactive <span className="highlight two">experiences</span> and business <span className="highlight two">logics</span>  using <span className="highlight">best practices</span>. With over <span className="highlight two">2 years </span> of experience in developing <span className="highlight">industry-standard </span> software products, 
                 during my career, I have transformed <span className="highlight two">challenges</span> into <span className="highlight two">opportunities</span> and turned intricate ideas into code that provides value for business.  I have had the opportunity to work for both <span className='highlight'>startups</span> and well-established <span className='highlight'>companies.</span>
+              </span> */}
+              <span>
+              I'm a <span className="highlight two">software engineer</span> focused on solving <span className="highlight two">problems</span> using <span className="highlight two">frontend</span> and <span className="highlight two">backend</span> technologies. I am interested in <span className="highlight two">user experience</span>, business logic, <span className="highlight two">design engineering</span>, gaming, web3, cloud engineering and golang.
               </span>
             </p>
           </div>
@@ -58,18 +61,18 @@ export class Base extends Component {
               </small>
             </li>
 
-            <li className={this.props.menu[2]}>
+            {/* <li className={this.props.menu[2]}>
               <small>
                 02
                 <Link to='/article'>
-                  <img src={navLine} alt='menu bullet' /> Article
+                  <img src={navLine} alt='menu bullet' /> ARTICLE
                 </Link>
               </small>
-            </li>
+            </li> */}
 
             <li className={this.props.menu[3]}>
               <small>
-                03{" "}
+                02{" "}
                 <Link to='/contact'>
                   <img src={navLine} alt='menu bullet' /> CONTACT
                 </Link>
