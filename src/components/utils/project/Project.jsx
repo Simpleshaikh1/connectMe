@@ -1,14 +1,17 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import './Project.css'
 
-export class Project extends Component {
-  render() {
-
-    const {title, description, github, live, stack, isPrivate} = this.props.data;
+export const Project = (props) => {
+    const [isHovered, setHovered] = useState(false);
+    const {title, description, github, live, stack, isPrivate, backgroundImage} = this.props.data;
 
     return (
-      <div className='box_container'>
-        <div className="box">
+      <div className='box_container'
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        <div className="box" >
           <div className="project_details">
             <h3> {title} </h3>
             <small> {stack} </small>
@@ -25,7 +28,6 @@ export class Project extends Component {
         </div>
       </div>
     )
-  }
 }
 
 export default Project

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from '../../../assets/svgs/kadet.svg'
 import { Link } from 'react-router-dom'
 import './Header.css'
 
@@ -18,7 +17,7 @@ export class Header extends Component {
       <div id='header'>
         <div className="header_wrapper">
           <div className="logo_container">
-            <a href="https://kadet.dev"><img src={logo} alt="kadet logo"/></a>
+            <a href="" className='Toyyib'>Toyyib.</a>
           </div>
 
           <div className="menu_btn_wrapper">
@@ -43,9 +42,9 @@ export class Header extends Component {
                 <div className="social_box">
                 <h3>Connect With Me</h3>
                   <div className="social_icons">
-                    <a href="https://github.com/kadetXx"><i className='fab fa-github'></i></a> 
-                    <a href="https://twitter.com/kadetXx"><i className='fab fa-twitter'></i></a>
-                    <a href="https://www.linkedin.com/in/collins-enebeli-online/"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Simpleshaikh1"><i className='fab fa-github'></i></a> 
+                    <a href="https://twitter.com/simpleshaikh"><i className='fab fa-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/toyyib-abayomi/"><i className="fab fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>

@@ -10,44 +10,57 @@ export class Resume extends Component {
   render() {
     const experience = [
       {
-        company: "Playarone",
-        position: "Frontend Developer",
-        started: "September 2020",
-        ended: "Feburary 2021",
+        company: "Credence, Remote",
+        position: "Backend Developer",
+        started: "August 2023",
+        ended: "Present.",
         description:
-          "I Joined the Playarone engineering team in building an online gaming community.",
+          "I Joined the Credence engineering team in building an Escrow Service, Market Place and Lending Service for agricultural produce.",
         achievements: [
-          "Worked with React and SASS to build components from scratch",
-          "Handled complex state management using react hooks",
+          "I was part of the development and successful delivery of a Minimum Viable Product (MVP) for the Credence app, ensuring alignment with project goals and timelines.",
+          "Continuously optimizes and refines the backend infrastructure to improve system responsiveness and meet evolving business requirements",
           "Worked closely with a senior dev to integrate graphQL and typescript.",
         ],
       },
 
       {
-        company: "Charisol",
-        position: "Frontend Developer [Contract]",
-        started: "October 2020",
-        ended: "March 2021",
+        company: "ATBtech",
+        position: "Frontend Developer",
+        started: "October 2022",
+        ended: "October 2023",
         description:
-          "I worked with the charisol product team on a contract basis to build a web application for a fintech startup",
+          "I worked with the ATBtech product team to build a web application for a fintech company",
         achievements: [
-          "Transformed figma prototypes to functional UIs using react js, react context and sass",
-          "Made use of tools like Notion & Usepastel for task management and feedback",
-          "Interacted with GraphQL apis from the client side using Apollo GraphQL",
+          "Transformed figma prototypes to functional UIs using Angular  and sass",
+          "Made use of tools like Jira for task management and feedback",
+          "Played a pivotal role in the successful delivery of comprehensive implementations aligned with client specifications.",
+          "Collaborated seamlessly with cross-functional teams encompassing engineers, DevOps specialists, and Testers, utilizing platforms like BitBucket and Azure"
         ],
       },
 
       {
-        company: "HNG Internships",
-        position: "Frontend Developer [Intern]",
-        started: "May 2020",
-        ended: "August 2020",
+        company: "Cogieni",
+        position: "Backend Developer",
+        started: "August 2022",
+        ended: "December 2022",
         description:
-          "I contributed in developing user interfaces for quite a number of products within three months while learning new skills",
+          "I Contributed as an integral member of a dynamic team at Cogieni, participating in the development of a robust waste management system.",
         achievements: [
-          "Worked with node.js developers to build a certificate generator",
-          "Headed the frontend department of my team to deliver responsive web templates to be sold on envato market",
-          "Built an open source micro API project alongside python (Django) Developers using Jinja template engine on the frontend",
+          "Demonstrated proficiency in both backend and frontend domains, exhibiting versatility and a holistic understanding of system architecture.",
+          "Pioneered the construction of a waste management system API with the goal of securing recognition from the federal government of Nigeria, showcasing innovation and technical prowess.",
+        ],
+      },
+
+      {
+        company: "Skillup Africa. Intership",
+        position: "Backend Developer",
+        started: "November 2021",
+        ended: "October 2022",
+        description:
+          "Worked with a team of skilled backend developers, exhibiting strong leadership in planning, organization, and architectural design.",
+        achievements: [
+          "Guided through the development of a sophisticated blog site, collaborating seamlessly with front-end developers within an Agile framework.",
+          "Contributed significantly to the creation of a blood bank project, engaging JIRA as a collaborative tool to enhance efficiency.",
         ],
       },
     ];
@@ -56,10 +69,10 @@ export class Resume extends Component {
       <div className="resume">
         <div className="resume_container">
           <div className="top_row">
-            <h2>Collins Enebeli</h2>
+            <h2>Toyyib Abayomi</h2>
             <div className="buttons">
               <a
-                href="https://www.linkedin.com/in/collins-enebeli-online/"
+                href="https://www.linkedin.com/in/toyyib-abayomi/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -68,7 +81,7 @@ export class Resume extends Component {
                 </small>
               </a>
               <a
-                href="https://drive.google.com/file/d/1tbgKQ8dsGmNXOR5Axb7vWhbOBDBA-3uV/view?usp=sharing"
+                href="https://docs.google.com/document/d/1B0lHdwbyLFcbMGGzcCqOd4Xh0N3Fa99QFD9iKjWw_aE/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,11 +92,11 @@ export class Resume extends Component {
             </div>
           </div>
 
-          <p className="subheading">Frontend Developer</p>
+          <p className="subheading">Software Developer</p>
 
           <div className="summary">
             <p>
-              I’m a Frontend software developer, passionate about transforming
+              I’m a software developer, passionate about transforming
               ideas from pixels to scalable products. I create functional
               applications with user experience as top priority.
             </p>
@@ -96,8 +109,8 @@ export class Resume extends Component {
 
           <div className="skills">
             <p>
-              HTML/CSS, SASS, Javascript [ES6], React Js, Next Js, Vue Js,
-              CSS-in-JS, GraphQL, Redux, Firebase.
+              HTML/CSS, SASS, Javascript [ES6], React Js, Angular, Node Js, Express, Ruby on Rails,
+              CSS-in-JS, PostgreSQL, Redux, Firebase.
             </p>
           </div>
 
@@ -108,7 +121,7 @@ export class Resume extends Component {
 
           <div className="skills">
             <p>
-              Typescript, Flux, Node Js, Express, Web Sockets, PWAs, Wordpress,
+              Typescript, Flux, Next Js, Emotion CSS, Web Sockets, PWAs, Wordpress,
               SEO.
             </p>
           </div>
@@ -158,10 +171,10 @@ export class Resume extends Component {
           <div className="exp_container">
             <section className="experience">
               <p className="title">
-                Federal University Of Petroleum Resources Effurun — B.Eng,
-                Marine Engineering
+                National Open University of Nigeria — B.Sc,
+                Computer Science
                 <span>
-                  <br /> 2017-2022
+                  <br /> 2019-2024
                 </span>
               </p>
             </section>
@@ -177,7 +190,7 @@ export class Resume extends Component {
               <article className="description">
                 <p>
                   Links to my works can be found on <span> </span>{" "}
-                  <Link to="/work">kadet.dev/work</Link>{" "}
+                  <Link to="/work">toyyib.dev/work</Link>{" "}
                 </p>
               </article>
             </section>

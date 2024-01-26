@@ -13,7 +13,7 @@ export class Base extends Component {
         <div className='hero'>
           <div className='intro_box'>
             <h1>
-              Hello, I'm <br /> Toyyib Omobolaji.
+              Hello, I'm <br /> Toyyib Abayomi.
             </h1>
             <div className='avi'>
               <img src={avi} alt='avatar' />
@@ -23,7 +23,8 @@ export class Base extends Component {
           <div className='description'>
             <p>
               <span>
-                I'm a <span className='highlight'>frontend developer</span>. I create interactive <span className="highlight two">experiences</span> for amazing people using <span className="highlight">technology</span>. I enjoy tweaking <span className="highlight two">stylesheets</span> and crafting <span className="highlight">layouts</span> to achieve <span className="highlight two">desired</span> aesthetics.
+                I'm a self-motivated <span className='highlight'>software developer</span>. I create interactive <span className="highlight two">experiences</span> and business <span className="highlight two">logics</span>  using <span className="highlight">best practices</span>. With over <span className="highlight two">2 years </span> of experience in developing <span className="highlight">industry-standard </span> software products, 
+                during my career, I have transformed <span className="highlight two">challenges</span> into <span className="highlight two">opportunities</span> and turned intricate ideas into code that provides value for business.  I have had the opportunity to work for both <span className='highlight'>startups</span> and well-established <span className='highlight'>companies.</span>
               </span>
             </p>
           </div>
@@ -31,7 +32,7 @@ export class Base extends Component {
           <div className='go_button_container'>
             <Link to='/work' className='explore'>
               <button className='explore'>
-                Explore <span class='material-icons'>arrow_right</span>
+                Explore <span class='material-icons'><img src={arrow} alt='arrow' /></span>
               </button>
             </Link>
           </div>
@@ -59,7 +60,16 @@ export class Base extends Component {
 
             <li className={this.props.menu[2]}>
               <small>
-                02{" "}
+                02
+                <Link to='/article'>
+                  <img src={navLine} alt='menu bullet' /> Article
+                </Link>
+              </small>
+            </li>
+
+            <li className={this.props.menu[3]}>
+              <small>
+                03{" "}
                 <Link to='/contact'>
                   <img src={navLine} alt='menu bullet' /> CONTACT
                 </Link>
@@ -88,19 +98,6 @@ export class Base extends Component {
               <i className='fab fa-twitter'></i> Twitter{" "}
               <img src={arrow} alt='pointer' />
             </a>
-          </div>
-
-          <div className='credits'>
-            <p>
-              Inspired by
-              <a
-                href='https://sarahdayan.dev/'
-                target='_blank'
-                rel='noreferrer noopener'
-              >
-                Sarah Dayan
-              </a>
-            </p>
           </div>
         </div>
       </div>

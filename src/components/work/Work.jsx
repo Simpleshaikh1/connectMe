@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import "./Work.css";
 import Project from "../utils/project/Project";
 import uuid from "react-uuid";
+import Locum from "../../assets/img/locum-dashboard.png";
+import Mobi from "../../assets/img/mobi-bank.png";
+import Myxalary from "../../assets/img/myxalary-payroll.png";
+import Hackathon from "../../assets/img/get-linked-hackathon.png";
+import Flight from "../../assets/img/flight-app.png";
+import Credence from "../../assets/img/credence.png";
 
 export class Work extends Component {
   state = {
@@ -10,62 +16,68 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Checkmate",
-        description: "Sign up portal for Checkmate Africa community",
-        github: "https://github.com/kadetXx/checkmate",
-        live: "https://checkmate.africa/",
-        stack: "React + Styled Components",
+        title: "Locum Space",
+        description: "Booking appointment with doctors in real time.",
+        github: "https://github.com/LocumSpace/LocumSpaceWeb",
+        live: "https://locum-ba5f5.firebaseapp.com/",
+        stack: "React + Styled Components + NextJs",
         isPrivate: false,
+        backgroundImage: Locum,
       },
 
       {
         id: uuid(),
-        title: "Birdbox",
-        description: "Social application with Real time Messaging",
-        github: "https://github.com/kadetXx/birdbox",
-        live: "https://birdbox.space/",
-        stack: "Vue + Socket.io + Express",
+        title: "MyXalary",
+        description: "An all-in-one HRM software.",
+        github: "https://myxalary.com/",
+        live: "https://www.linkedin.com/company/myxalary/",
+        stack: "Angular + Socket.io + Express",
         isPrivate: false,
+        backgroundImage: Myxalary,
       },
 
       {
         id: uuid(),
-        title: "EndSars",
-        description: "Web app to support the #EndSARS campaign",
-        github: "https://github.com/kadetXx/endsars",
-        live: "https://endsars.vercel.app/",
-        stack: "React",
+        title: "Credence",
+        description: "Fueling Agribusiness",
+        bitbucket: "https://bitbucket.org/credence-app1/credence-frontend/",
+        live: "https://credenceapp.co/",
+        stack: "React + Redux + NodeJs",
         isPrivate: false,
+        backgroundImage: Credence,
       },
 
       {
         id: uuid(),
-        title: "Shoppies",
-        description: "Movie Awards Nomination App",
-        github: "https://github.com/kadetXx/shoppies",
-        live: "https://shoppiesawards.netlify.app/",
+        title: "Flight App",
+        description: "Flight Booking App",
+        github: "https://github.com/simpleshiakh1",
+        live: "https://flight-advisor-app-6phr.vercel.app/explore",
         stack: "React + SASS",
         isPrivate: false,
+        backgroundImage: Flight,
       },
 
       {
         id: uuid(),
-        title: "Vectorly",
-        description: "Draw basic shapes with SVG",
-        github: "https://github.com/kadetXx/vectorly",
-        live: "https://vectorly.kadetxx.vercel.app/",
+        title: "Hackathon",
+        description: "Front-end coding challenge.",
+        github: "https://github.com/Simpleshaikh1/hackathon",
+        live: "https://65858d46bd2a38ccc2df10fe--toyyib-hackathon.netlify.app/",
         stack: "React",
         isPrivate: false,
+        backgroundImage: Hackathon,
       },
 
       {
         id: uuid(),
-        title: "Animepanda",
-        description: "Mobile App landing page",
-        github: "https://github.com/kadetXx/animepanda",
-        live: "https://animepanda.herokuapp.com",
+        title: "Mobi Bank",
+        description: "Easy to use banking app",
+        github: "https://github.com/simpleshiakh1",
+        live: "https://mobibankapp.onrender.com/",
         stack: "Sass + Javsacript + PHP",
         isPrivate: false,
+        backgroundImage:Mobi,
       }, 
     ],
   };
